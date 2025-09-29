@@ -1,0 +1,119 @@
+/* Styles spécifiques à la page de réservation */
+
+/* Menu Navigation */
+.menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.menu ul li a {
+    background: #cdf6db;
+    color: #54665a;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 8px;
+    padding: 10px 28px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 3px #54665a;
+    transition: background 0.2s, color 0.2s;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background: #54665a;
+    color: #cdf6db;
+}
+
+/* Titre */
+h1 {
+    background: #54665a;
+    padding: 12px 0;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px #cdf6db;
+    max-width: 700px;
+    margin: 50px auto 100px auto;
+    text-align: center;
+    color: #cdf6db;
+}
+
+
+/* Formulaire de réservation */
+form {
+    background: #fff;
+    border: 1px solid #cdf6db;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(84, 102, 90, 0.5);
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+label {
+    color: #54665a;
+    font-weight: 500;
+}
+
+input, select, button {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #54665a;
+    font-size: 1em;
+}
+
+input:focus, select:focus {
+    outline: 2px solid #54665a;
+}
+
+button {
+    background: #cdf6db;
+    color: #54665a;
+    border: none;
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s; 
+    box-shadow: 0 1px 5px #54665a;
+}
+
+button:hover {
+    background: #54665a;
+    color: #cdf6db;
+}
+ul {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(155,196,114,0.1);
+    padding: 20px 30px;
+}
+li {
+    margin-bottom: 12px;
+    font-size: 1.1em;
+}
+p {
+    text-align: center;
+}
+
+
+/* Pied de page */
+footer {
+    background: #54665a;
+    color: #cdf6db;
+    text-align: center;
+    padding: 18px 0 10px 0;
+    font-size: 1em;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
