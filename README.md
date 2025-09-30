@@ -17,4 +17,4 @@ L’application comporte :
 ## 🚀 Installation
 1. Cloner ce dépôt  
    ```bash
-   git clone https://github.com/Kanna-Yudoku/projet-booking.git 
+   git clone https://github.com/Lorene-LP/projet-booking.git 
